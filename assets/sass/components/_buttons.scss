@@ -1,0 +1,37 @@
+.info__buttons {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;           
+  justify-content: flex-end;
+  width: 50%;
+  color: $white;
+  margin-left: auto;
+  margin-right: 8%;
+  margin-top: auto;
+  margin-bottom: auto;
+
+}
+
+@media (max-width: 768px) {
+  .info__buttons {
+      display: none;    
+  }
+}
+
+.info__buttons-left {
+  width: 15%;
+  height: 100%;
+  border: none;
+  background-color: $light-blue;
+  color: $white;
+  margin-right: 2%;
+}
+
+.info__buttons-right {
+  width: 15%;
+  height: 100%;
+  border: none;
+  background-color: $light-red;
+  color: $white;
+}

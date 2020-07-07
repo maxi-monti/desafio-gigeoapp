@@ -1,0 +1,40 @@
+// Navbar
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin: 2% 0;
+}
+
+.navbar__brand {
+    flex-grow: 1;
+    margin-left: 2%;
+    justify-content: center;
+}
+
+.navbar__box {
+    margin-right: 2%;
+    justify-content: center;
+    display: flex;
+}
+
+.navbar__menu {
+    justify-content: center;
+    display: flex;
+}
+
+.navbar__item {
+    padding: 0 15px;
+    color: black;
+}
+
+.navbar__hamburger {
+    padding: 0 15px;
+}
+
+@media (max-width: 768px) {
+    .navbar__item {
+        display: none;
+    }
+}
